@@ -1,0 +1,14 @@
+
+    {
+    "emeraldwalk.runonsave": {
+        "message": "🚀 Objavljivanje FK Propast sajta...",
+        "messageAfter": "✅ FK Propast je poslat na GitHub!",
+        "showElapsed": true,
+        "commands": [
+            {
+                "match": ".*",
+                "cmd": "cd /d \"${workspaceFolder}\" && git add . && git commit -m \"Automatska izmena sajta\" && git push"
+            }
+        ]
+    }
+}
