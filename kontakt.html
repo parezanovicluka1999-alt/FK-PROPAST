@@ -81,34 +81,37 @@
 
     <h2>POŠALJI PORUKU</h2>
 
-    <form action="https://formspree.io/f/moeaejva" method="POST">
+<form id="contact-form">
 
-        <input
-            type="text"
-            name="ime"
-            placeholder="Ime i prezime"
-            required
-        >
+    <input
+        type="text"
+        name="ime"
+        placeholder="Ime i prezime"
+        required
+    >
 
-        <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            required
-        >
+    <input
+        type="email"
+        name="email"
+        placeholder="Email"
+        required
+    >
 
-        <textarea
-            name="poruka"
-            placeholder="Vaša poruka"
-            rows="6"
-            required
-        ></textarea>
+    <textarea
+        name="poruka"
+        placeholder="Vaša poruka"
+        rows="6"
+        required
+    ></textarea>
 
-        <button type="submit">
-            POŠALJI
-        </button>
+    <button type="submit">
+        POŠALJI
+    </button>
 
-    </form>
+    <p id="form-message"></p>
+
+</form>
+
 
 </div>
 
