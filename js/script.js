@@ -3,3 +3,7 @@ function toggleMenu() {
 
     nav.classList.toggle("active");
 }
+
+function promeniTekst() {
+    alert("Dobrodošao na sajt FK Propast!");
+}
