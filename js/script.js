@@ -29,3 +29,5 @@ countdown.innerHTML = dani + " dana | " + sati + " sati | " + minuti + " minuta 
 }
 
 odbrojavanje();
+
+setInterval(odbrojavanje, 1000);
