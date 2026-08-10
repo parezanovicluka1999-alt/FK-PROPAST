@@ -9,4 +9,4 @@ function promeniTekst() {
 
 const countdown = document.getElementById("countdown");
 
-countdown.innerHTML = "TEST";
+const datumUtakmice = new Date("August 15, 2026 18:00:00");
