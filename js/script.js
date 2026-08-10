@@ -12,3 +12,9 @@ const countdown = document.getElementById("countdown");
 const datumUtakmice = new Date("August 15, 2026 18:00:00");
 
 const sada = new Date();
+
+const razlika = datumUtakmice - sada;
+
+const dani = Math.floor(razlika / (1000 * 60 * 60 * 24));
+
+const sati = Math.floor((razlika / (1000 * 60 * 60)) % 24);
