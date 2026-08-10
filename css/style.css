@@ -1467,3 +1467,10 @@ footer {
 html {
     scroll-behavior: smooth;
 }
+
+#countdown {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #e30613;
+}
