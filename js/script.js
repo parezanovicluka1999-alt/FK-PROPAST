@@ -22,3 +22,5 @@ const sati = Math.floor((razlika / (1000 * 60 * 60)) % 24);
 const minuti = Math.floor((razlika / (1000 * 60)) % 60);
 
 const sekunde = Math.floor((razlika / 1000) % 60);
+
+countdown.innerHTML = dani + " dana | " + sati + " sati | " + minuti + " minuta | " + sekunde + " sekundi";
