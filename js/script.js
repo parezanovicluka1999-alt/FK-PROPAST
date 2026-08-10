@@ -7,3 +7,6 @@ function toggleMenu() {
 function promeniTekst() {
     alert("Dobrodošao na sajt FK Propast!");
 }
+
+const countdown = document.getElementById("countdown");
+countdown.innerHTML = "TEST";
