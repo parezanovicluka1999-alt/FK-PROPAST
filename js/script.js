@@ -10,3 +10,5 @@ function promeniTekst() {
 const countdown = document.getElementById("countdown");
 
 const datumUtakmice = new Date("August 15, 2026 18:00:00");
+
+const sada = new Date();
