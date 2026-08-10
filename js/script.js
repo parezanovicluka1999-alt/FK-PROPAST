@@ -27,3 +27,5 @@ const sekunde = Math.floor((razlika / 1000) % 60);
 
 countdown.innerHTML = dani + " dana | " + sati + " sati | " + minuti + " minuta | " + sekunde + " sekundi";
 }
+
+odbrojavanje();
