@@ -9,6 +9,8 @@ function promeniTekst() {
 
 const countdown = document.getElementById("countdown");
 
+function odbrojavanje() {
+
 const datumUtakmice = new Date("August 15, 2026 18:00:00");
 
 const sada = new Date();
@@ -24,3 +26,4 @@ const minuti = Math.floor((razlika / (1000 * 60)) % 60);
 const sekunde = Math.floor((razlika / 1000) % 60);
 
 countdown.innerHTML = dani + " dana | " + sati + " sati | " + minuti + " minuta | " + sekunde + " sekundi";
+}
