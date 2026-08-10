@@ -674,15 +674,17 @@ footer {
 
 .gallery-track {
     display: flex;
+    flex-wrap: nowrap;
     gap: 25px;
+    width: max-content;
 }
 
 .gallery-item {
-    min-width: 350px;
+    flex: 0 0 350px;
+    width: 350px;
     height: 250px;
 
     overflow: hidden;
-
     border-radius: 10px;
 
     background-color: #222;
