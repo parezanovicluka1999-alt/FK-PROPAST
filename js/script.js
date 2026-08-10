@@ -11,3 +11,5 @@ function promeniTekst() {
 const countdown = document.getElementById("countdown");
 
 countdown.innerHTML = "TEST";
+
+alert("JavaScript radi!");
