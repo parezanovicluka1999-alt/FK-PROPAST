@@ -90,6 +90,10 @@ nav a {
     border-radius: 5px;
 }
 
+.hero-button:hover {
+    background-color: #b5000b;
+}
+
 .matches {
     display: flex;
     justify-content: center;
