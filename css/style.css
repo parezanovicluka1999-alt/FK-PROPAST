@@ -666,9 +666,7 @@ footer {
 
 .gallery {
     overflow: hidden;
-
     padding: 50px 10% 80px;
-
     background-color: #151515;
 }
 
@@ -683,10 +681,8 @@ footer {
     flex: 0 0 350px;
     width: 350px;
     height: 250px;
-
     overflow: hidden;
     border-radius: 10px;
-
     background-color: #222;
 }
 
