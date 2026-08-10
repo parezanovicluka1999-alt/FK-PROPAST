@@ -20,3 +20,5 @@ const dani = Math.floor(razlika / (1000 * 60 * 60 * 24));
 const sati = Math.floor((razlika / (1000 * 60 * 60)) % 24);
 
 const minuti = Math.floor((razlika / (1000 * 60)) % 60);
+
+const sekunde = Math.floor((razlika / 1000) % 60);
