@@ -669,7 +669,14 @@ footer {
     overflow-y: hidden;
     padding: 50px 10% 80px;
     background-color: #151515;
+    scrollbar-width: none;
     cursor: grab;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
 }
 
 .gallery-track {
