@@ -665,18 +665,20 @@ footer {
 }
 
 .gallery {
-    display: grid;
-
-    grid-template-columns: repeat(3, 1fr);
-
-    gap: 25px;
+    overflow: hidden;
 
     padding: 50px 10% 80px;
 
     background-color: #151515;
 }
 
+.gallery-track {
+    display: flex;
+    gap: 25px;
+}
+
 .gallery-item {
+    min-width: 350px;
     height: 250px;
 
     overflow: hidden;
